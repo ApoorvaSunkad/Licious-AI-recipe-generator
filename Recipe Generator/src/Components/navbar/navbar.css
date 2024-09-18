@@ -55,9 +55,10 @@
     padding: 12px;
     border-radius: 50%;
     margin-left: 3rem;
-    background-color: rgb(233, 231, 231);
+    background-color: #e9e7e7;
 }
 .home i{
     font-size: 1.3rem;
     cursor: pointer;
+    background-color: #e9e7e7;
 }
