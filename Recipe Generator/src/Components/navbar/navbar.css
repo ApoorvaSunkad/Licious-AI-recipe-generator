@@ -51,10 +51,30 @@
     border: 0.5px solid #7c7c7c;
 }
 
+.mic-icon{
+    margin-right: 1rem;
+    background-color: transparent;
+    cursor: pointer;
+    color: #7c7c7c;
+    display: flex;
+    align-items: center;
+}
+
+.mic-icon:hover {
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+.likes{
+    margin-left: 2rem;
+    font-size: 1.65rem;
+    cursor: pointer;
+}
+
 .home{
     padding: 12px;
     border-radius: 50%;
-    margin-left: 3rem;
+    margin-left: 2rem;
     background-color: #e9e7e7;
 }
 .home i{
