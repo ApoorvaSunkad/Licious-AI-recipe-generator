@@ -19,7 +19,7 @@ export const Navbar = () => {
           placeholder='Search your favourite recipes..' 
           className="search-space"
         />
-        <i class="fa-solid fa-magnifying-glass"></i>
+        <i className="fa-solid fa-magnifying-glass"></i>
 
         {/* Microphone icon and recorder */}
         <div className="mic-icon">
@@ -37,9 +37,9 @@ export const Navbar = () => {
           />
         </div>
       </div>
-      <i class="fa-regular fa-heart likes"></i>
+      <i className="fa-regular fa-heart likes"></i>
       <div className="home">
-        <i class="fa-solid fa-house"></i>
+        <i className="fa-solid fa-house"></i>
       </div>
 
     </div>

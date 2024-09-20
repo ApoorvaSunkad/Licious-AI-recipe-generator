@@ -1,12 +1,12 @@
 import './App.css';
 import { Navbar } from "./Components/navbar/navbar";
-import {Recipeform} from "./Components/Recipeform/Recipeform";
+// import {RecipeCard} from "./Components/RecipeCard/RecipeCard";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Recipeform/>
+      <RecipeCard/>
     </div>
   );
 }

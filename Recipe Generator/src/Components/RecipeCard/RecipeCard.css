@@ -1,0 +1,45 @@
+.recipe-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background-color: #fff;
+  }
+  
+.recipe-image {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+.recipe-details {
+padding: 15px;
+}
+
+.recipe-details h3 {
+font-size: 1.2rem;
+margin-bottom: 10px;
+}
+  
+.like-button {
+background-color: transparent;
+border: none;
+cursor: pointer;
+color: red;
+}
+  
+.view-recipe-button {
+background-color: #ff6347;
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+}
+  
+.view-recipe-button:hover {
+background-color: #ff4500;
+}
+  
